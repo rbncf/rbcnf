@@ -100,16 +100,16 @@ const Home: React.FC = () => {
                 </div>
                 <div className="p-6 space-y-3">
                   <div className="flex justify-between items-start">
-                    <span className="text-[10px] font-bold tracking-widest text-accent uppercase">{product.category}</span>
+                    <span className="text-[15px] font-bold tracking-widest text-accent uppercase">{product.category}</span>
                     <Badge variant="primary">Ready Stock</Badge>
                   </div>
-                  <h4 className="font-bold text-lg leading-tight group-hover:text-primary transition-colors">{product.name}</h4>
-                  <p className="text-xs text-secondary-text line-clamp-2">{product.description}</p>
+                  <h4 className="font-bold text-[20px] leading-tight group-hover:text-primary transition-colors">{product.name}</h4>
+                  <p className="text-[14px] text-secondary-text line-clamp-2">{product.description}</p>
                   <div className="pt-4 flex items-center justify-between border-t border-border-soft">
-                    <div className="bg-sku-bg px-2 py-1 rounded text-[10px] font-mono font-bold text-primary">
+                    <div className="bg-sku-bg px-2 py-1 rounded text-[12px] font-mono font-bold text-primary">
                       {product.sku}
                     </div>
-                    <p className="text-xs text-secondary-text font-bold">MOQ: {product.moq}</p>
+                    <p className="text-[15px] text-secondary-text font-bold">MOQ: {product.moq}</p>
                   </div>
                 </div>
               </Card>

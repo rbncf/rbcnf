@@ -43,7 +43,7 @@ const ReadyStock: React.FC = () => {
                   </div>
                   <div className="p-6 flex flex-col flex-grow space-y-4">
                     <div className="space-y-2">
-                      <span className="text-[10px] font-bold tracking-widest text-accent uppercase">{product.category}</span>
+                      <span className="text-[15px] font-bold tracking-widest text-accent uppercase">{product.category}</span>
                       <h3 className="font-bold text-xl leading-tight group-hover:text-primary transition-colors">{product.name}</h3>
                     </div>
                     <p className="text-sm text-secondary-text leading-relaxed flex-grow">
@@ -81,7 +81,7 @@ const ReadyStock: React.FC = () => {
                 ].map((item, i) => (
                   <div key={i} className="flex justify-between border-b border-border-soft pb-4">
                     <span className="text-secondary-text font-medium">{item.label}</span>
-                    <span className="text-main-text font-bold">{item.value}</span>
+                    <span className="text-main-text font-bold text-right">{item.value}</span>
                   </div>
                 ))}
               </div>
