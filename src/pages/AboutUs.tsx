@@ -21,7 +21,7 @@ const About: React.FC = () => {
             <div className="relative">
               <div className="aspect-video rounded-[24px] overflow-hidden">
                 <img 
-                  src="https://picsum.photos/seed/factory-supply/1200/800" 
+                  src="public/factory-supply.png" 
                   alt="Factory Supply" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

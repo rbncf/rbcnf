@@ -9,7 +9,7 @@ export const PRODUCTS: Product[] = [
     description: 'Hydration-focused 30ml ampoule for everyday skincare lines.',
     moq: 3000,
     status: 'Ready Stock',
-    image: 'https://picsum.photos/seed/amp001/800/800'
+    image: 'public/hyaluronic hydration ampoule.png'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     description: 'Brightening ampoule designed for glow and tone improvement concepts.',
     moq: 3000,
     status: 'Ready Stock',
-    image: 'https://picsum.photos/seed/amp002/800/800'
+    image: 'public/vitamin C brightening ampoule.png'
   },
   {
     id: '3',
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     description: 'A practical choice for brightening and daily tone care positioning.',
     moq: 3000,
     status: 'Private Label Available',
-    image: 'https://picsum.photos/seed/amp003/800/800'
+    image: 'public/Niacinamide Tone-up Ampoule.png'
   },
   {
     id: '4',
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     description: 'Firming-focused ampoule for anti-aging and elasticity concepts.',
     moq: 3000,
     status: 'Private Label Available',
-    image: 'https://picsum.photos/seed/amp004/800/800'
+    image: 'public/Peptide Firming Ampoule.png'
   }
 ];
 

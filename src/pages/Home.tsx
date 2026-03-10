@@ -173,7 +173,7 @@ const Home: React.FC = () => {
           <div className="relative">
             <div className="aspect-video rounded-[24px] overflow-hidden">
               <img 
-                src="https://picsum.photos/seed/brand-starter/1200/800" 
+                src="public/brand-starter.png" 
                 alt="Brand Starter" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
