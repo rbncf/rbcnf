@@ -27,7 +27,7 @@ const ReadyStock: React.FC = () => {
               <h2 className="text-3xl font-bold">Available Product Line</h2>
               <p className="text-secondary-text">Our initial ready stock line starts with four core ampoule SKUs selected for broad market appeal and easier B2B sales development.</p>
             </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               {PRODUCTS.map((product) => (
                 <Card key={product.id} variant="sku" className="group flex flex-col h-full">
                   <div className="aspect-square overflow-hidden bg-section-bg relative">

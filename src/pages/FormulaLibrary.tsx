@@ -26,7 +26,7 @@ const FormulaLibrary: React.FC = () => {
           <div className="space-y-12 mb-20">
             <div className="space-y-4">
               <h2 className="text-3xl font-bold">Core Ampoule Formulas</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {['AMP001 — Hyaluronic Hydration Ampoule', 'AMP002 — Vitamin C Brightening Ampoule', 'AMP003 — Niacinamide Tone-up Ampoule', 'AMP004 — Peptide Firming Ampoule'].map((item, i) => (
                   <Card key={i} className="p-6 border-l-4 border-primary">
                     <p className="font-bold text-primary">{item}</p>
@@ -61,7 +61,7 @@ const FormulaLibrary: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold">Why This Structure Works</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               { icon: <Target size={32} />, title: 'Easier Selection', desc: 'Simplified product identification for buyers.' },
               { icon: <Zap size={32} />, title: 'Faster Communication', desc: 'Streamlined inquiry and quotation process.' },

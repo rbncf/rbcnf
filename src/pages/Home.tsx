@@ -16,9 +16,9 @@ const Home: React.FC = () => {
         <div className="container-wide grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8 z-10">
             <Badge variant="accent" className="mb-2">Factory-Direct B2B Supply</Badge>
-            <h1 className="text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight">
-              Ready Stock Skincare <br />
-              <span className="text-primary">Ampoules for B2B Buyers</span>
+            <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] xl:text-6xl font-bold leading-[1.1] tracking-tight">
+              <span className="inline-block">Ready Stock Skincare</span> <br />
+              <span className="text-primary inline-block">Ampoules for B2B Buyers</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary-text leading-relaxed max-w-xl">
               30ml ampoules with MOQ 3,000. <br />
@@ -87,7 +87,7 @@ const Home: React.FC = () => {
               <Button variant="secondary">View All Products</Button>
             </Link>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {PRODUCTS.map((product) => (
               <Card key={product.id} variant="sku" className="group">
                 <div className="aspect-square overflow-hidden bg-section-bg">
