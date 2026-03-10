@@ -27,7 +27,7 @@ const PrivateLabel: React.FC = () => {
             <div className="relative">
               <div className="aspect-[4/3] rounded-[24px] overflow-hidden">
                 <img 
-                  src="public/private-label-b2b.png" 
+                  src="https://rbcnf.cafe24.com/rbcnf/private-label-b2b.png" 
                   alt="Private Label B2B" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -72,7 +72,7 @@ const PrivateLabel: React.FC = () => {
             <div className="order-2 lg:order-1">
               <div className="aspect-video rounded-[24px] overflow-hidden">
                 <img 
-                  src="public/label-design.png" 
+                  src="https://rbcnf.cafe24.com/rbcnf/label-design.png" 
                   alt="Label Design" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

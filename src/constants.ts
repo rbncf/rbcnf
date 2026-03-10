@@ -9,7 +9,7 @@ export const PRODUCTS: Product[] = [
     description: 'Hydration-focused 30ml ampoule for everyday skincare lines.',
     moq: 3000,
     status: 'Ready Stock',
-    image: 'public/hyaluronic hydration ampoule.png'
+    image: 'https://rbcnf.cafe24.com/rbcnf/hyaluronic%20hydration%20ampoule.png'
   },
   {
     id: '2',
@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     description: 'Brightening ampoule designed for glow and tone improvement concepts.',
     moq: 3000,
     status: 'Ready Stock',
-    image: 'public/vitamin C brightening ampoule.png'
+    image: 'https://rbcnf.cafe24.com/rbcnf/vitamin%20C%20brightening%20ampoule.png'
   },
   {
     id: '3',
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     description: 'A practical choice for brightening and daily tone care positioning.',
     moq: 3000,
     status: 'Private Label Available',
-    image: 'public/Niacinamide Tone-up Ampoule.png'
+    image: 'https://rbcnf.cafe24.com/rbcnf/Niacinamide%20Tone-up%20Ampoule.png'
   },
   {
     id: '4',
@@ -39,7 +39,7 @@ export const PRODUCTS: Product[] = [
     description: 'Firming-focused ampoule for anti-aging and elasticity concepts.',
     moq: 3000,
     status: 'Private Label Available',
-    image: 'public/Peptide Firming Ampoule.png'
+    image: 'https://rbcnf.cafe24.com/rbcnf/Peptide%20Firming%20Ampoule.png'
   }
 ];
 
