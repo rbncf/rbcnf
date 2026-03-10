@@ -19,7 +19,7 @@ const About: React.FC = () => {
               </p>
             </div>
             <div className="relative">
-              <div className="aspect-video rounded-[24px] overflow-hidden shadow-2xl">
+              <div className="aspect-video rounded-[24px] overflow-hidden">
                 <img 
                   src="https://picsum.photos/seed/factory-supply/1200/800" 
                   alt="Factory Supply" 

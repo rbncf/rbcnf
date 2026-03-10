@@ -54,7 +54,7 @@ export const Navbar: React.FC = () => {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-surface border-b border-border-soft p-6 space-y-4 shadow-xl">
+        <div className="md:hidden absolute top-full left-0 right-0 bg-surface border-b border-border-soft p-6 space-y-4">
           {navLinks.map((link) => (
             <Link
               key={link.path}

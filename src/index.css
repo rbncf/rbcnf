@@ -19,10 +19,6 @@
   --color-sku-bg: #EEF4F1;
   --color-error: #B35C4B;
   --color-success: #4F7D6F;
-
-  /* Shadows */
-  --shadow-card: 0 8px 24px rgba(0,0,0,0.05);
-  --shadow-card-hover: 0 12px 28px rgba(0,0,0,0.08);
 }
 
 @layer base {

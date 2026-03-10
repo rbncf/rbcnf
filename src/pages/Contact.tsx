@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
               <div className="space-y-4">
                 <Badge variant="primary">Contact Us</Badge>
                 <h1 className="text-4xl md:text-5xl font-bold">Let’s Talk About Your Next Skincare Product</h1>
-                <p className="text-lg text-secondary-text leading-relaxed max-w-lg">
+                <p className="text-xl md:text-2xl text-secondary-text leading-relaxed max-w-xl">
                   Send us your inquiry for ready stock, private label, or ODM supply.
                 </p>
               </div>
@@ -86,7 +86,7 @@ const Contact: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-surface p-8 lg:p-12 rounded-[20px] shadow-card border border-border-soft">
+            <div className="bg-surface p-8 lg:p-12 rounded-[20px] border border-border-soft">
               <h3 className="text-2xl font-bold mb-8">Inquiry Form</h3>
               <form className="space-y-6">
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">

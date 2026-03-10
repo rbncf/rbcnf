@@ -20,7 +20,7 @@ const Home: React.FC = () => {
               Ready Stock Skincare <br />
               <span className="text-primary">Ampoules for B2B Buyers</span>
             </h1>
-            <p className="text-lg text-secondary-text leading-relaxed max-w-lg">
+            <p className="text-xl md:text-2xl text-secondary-text leading-relaxed max-w-xl">
               30ml ampoules with MOQ 3,000. <br />
               Factory-direct pricing, private label available, and ODM expansion support.
             </p>
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="aspect-[4/5] rounded-[24px] overflow-hidden shadow-2xl">
+            <div className="aspect-[4/5] rounded-[24px] overflow-hidden">
               <img 
                 src="https://picsum.photos/seed/skincare-hero-b2b/1200/1500" 
                 alt="Skincare B2B Hero" 
@@ -131,7 +131,7 @@ const Home: React.FC = () => {
             
             {PROCESS_STEPS.map((step, i) => (
               <div key={i} className="relative z-10 flex flex-col items-center text-center space-y-6">
-                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold shadow-xl">
+                <div className="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold">
                   {step.step}
                 </div>
                 <div className="space-y-2">
@@ -171,7 +171,7 @@ const Home: React.FC = () => {
             </Link>
           </div>
           <div className="relative">
-            <div className="aspect-video rounded-[24px] overflow-hidden shadow-xl">
+            <div className="aspect-video rounded-[24px] overflow-hidden">
               <img 
                 src="https://picsum.photos/seed/brand-starter/1200/800" 
                 alt="Brand Starter" 

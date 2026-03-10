@@ -69,7 +69,7 @@ const FormulaLibrary: React.FC = () => {
               { icon: <Beaker size={32} />, title: 'Scalable Expansion', desc: 'Easy line expansion over time.' }
             ].map((item, i) => (
               <div key={i} className="text-center space-y-4">
-                <div className="w-16 h-16 bg-surface rounded-full flex items-center justify-center text-primary mx-auto shadow-sm">
+                <div className="w-16 h-16 bg-surface rounded-full flex items-center justify-center text-primary mx-auto">
                   {item.icon}
                 </div>
                 <h4 className="font-bold text-lg">{item.title}</h4>

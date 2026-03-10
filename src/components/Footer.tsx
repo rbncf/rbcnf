@@ -60,10 +60,6 @@ export const Footer: React.FC = () => {
 
         <div className="pt-8 border-t border-border-soft flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-secondary-text">© 2026 RB CNF. All rights reserved.</p>
-          <div className="flex gap-6">
-            <a href="#" className="text-xs text-secondary-text hover:text-primary">Terms of Service</a>
-            <a href="#" className="text-xs text-secondary-text hover:text-primary">Cookie Policy</a>
-          </div>
         </div>
       </div>
     </footer>

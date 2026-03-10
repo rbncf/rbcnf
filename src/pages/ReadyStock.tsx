@@ -86,7 +86,7 @@ const ReadyStock: React.FC = () => {
                 ))}
               </div>
             </div>
-            <div className="bg-surface p-10 rounded-[20px] shadow-card border border-border-soft space-y-6">
+            <div className="bg-surface p-10 rounded-[20px] border border-border-soft space-y-6">
               <h3 className="text-2xl font-bold">Request the Ready Stock List</h3>
               <p className="text-secondary-text text-sm">
                 Send us your market, quantity, and target product. We will share the matching product list and inquiry details.
