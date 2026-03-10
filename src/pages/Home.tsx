@@ -17,7 +17,7 @@ const Home: React.FC = () => {
           <div className="space-y-8 z-10">
             <Badge variant="accent" className="mb-2">Factory-Direct B2B Supply</Badge>
             <h1 className="text-4xl md:text-5xl lg:text-[3.5rem] xl:text-6xl font-bold leading-[1.1] tracking-tight">
-              <span className="inline-block">Ready Stock Skincare</span> <br />
+              <span className="inline-block pt-[10px]">Ready Stock Skincare</span> <br />
               <span className="text-primary inline-block">Ampoules for B2B Buyers</span>
             </h1>
             <p className="text-xl md:text-2xl text-secondary-text leading-relaxed max-w-xl">
@@ -37,7 +37,7 @@ const Home: React.FC = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-[24px] overflow-hidden">
               <img 
-                src="https://picsum.photos/seed/skincare-hero-b2b/1200/1500" 
+                src="https://rbcnf.cafe24.com/rbcnf/ready-stock-skincare.png" 
                 alt="Skincare B2B Hero" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
