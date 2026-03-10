@@ -14,6 +14,9 @@ export const Footer: React.FC = () => {
             <p className="text-secondary-text text-sm leading-relaxed max-w-xs">
               Professional B2B skincare manufacturing partner specializing in high-potency ampoules and standardized formulations.
             </p>
+            <p className="text-secondary-text text-sm leading-relaxed max-w-xs">
+            We make it easier and faster for businesses to launch skincare brands with ready formulas and factory-direct manufacturing.
+            </p>
           </div>
 
           <div>
@@ -32,15 +35,15 @@ export const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-sm text-secondary-text">
                 <Mail size={18} className="text-primary shrink-0" />
-                <span>info@ampoule-b2b.com</span>
+                <span>oneteam@rbcnf.co.kr</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-secondary-text">
                 <Phone size={18} className="text-primary shrink-0" />
-                <span>+82 2-1234-5678</span>
+                <span>+82 10-5785-7285</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-secondary-text">
                 <MapPin size={18} className="text-primary shrink-0" />
-                <span>Seoul, Republic of Korea</span>
+                <span>Incheon, Republic of Korea</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-secondary-text">
                 <MessageCircle size={18} className="text-primary shrink-0" />
@@ -48,7 +51,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-3 text-sm text-secondary-text">
                 <Instagram size={18} className="text-primary shrink-0" />
-                <span>Instagram: @ampoule_b2b</span>
+                <span>Instagram: @rbcnf</span>
               </li>
               <li className="flex items-start gap-3 text-sm text-secondary-text">
                 <Linkedin size={18} className="text-primary shrink-0" />
